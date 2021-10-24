@@ -17,10 +17,13 @@ Le projet Python
 3. Informations que nous jugons importantes de donner à notre enseignant pour le bon fonctionnement de notre programme :
 	
 	i. Installez Python 3.9
+	
 	ii.Faites la commande au dessous pour convertir le fichier apache.log en json :
 		> python3 log_json.py
+		
 	iii.Tous les statistiques se fait à partir du fichier apache.json. Pour afficher tous les statistiques possible, fait la commande:
 		> python3 graphique.py
+		
 	iv. Pour choisir la statistique spécifique, nous avons utilisé argparse. Les commandes possible sont :
 		> python3 graphique.py --h : pour afficher tous les commandes possible
 		> python3 graphique.py --stats os : pour afficher la statistique des systèmes d'exploitation utilisés
