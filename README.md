@@ -1,7 +1,9 @@
 # Python
 Le projet Python
-1. Membres du groupe: BINTI MOHAMAD Nurdini & 
-					  BIN ADNAN Muhammad Izzat Affandi
+1. Membres du groupe:
+	* BINTI MOHAMAD Nurdini 
+	* BIN ADNAN Muhammad Izzat Affandi
+	
    Groupe de TP :2 A
 
 2. Avant de commencer, vous devez récuperez tous les fichiers et le mettre dans un dossier.
