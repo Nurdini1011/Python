@@ -6,8 +6,7 @@ Le projet Python
 
 2. Avant de commencer, vous devez récuperez tous les fichiers et le mettre dans un dossier.
 	Les fichiers importants :
-	* log_json.py : - Permets de convertir le fichier .log en .json.
-	- Contient les fonctions pour parser les ligne dans un fichier log.
+	* log_json.py : Permets de convertir le fichier .log en .json et contient les fonctions pour parser les ligne dans un fichier log.
 	* statistique.py : Contient les fonctions qui permettent d'afficher les fenêtres graphiques pour la statistique.
 	* graphique.py : affichage de statistique avec des arguments (voyez point 3.iv).
 	* apache.log : Exemple d'un fichier de log, au format apache.
