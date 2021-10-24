@@ -22,6 +22,7 @@ Le projet Python
 	ii.Faites la commande au dessous pour convertir le fichier apache.log en json :
 	
 		> python3 log_json.py
+		> > Quel fichier log à convertir en json : apache.log
 		
 	iii.Tous les statistiques se fait à partir du fichier apache.json. Pour afficher tous les statistiques possible, fait la commande:
 	
