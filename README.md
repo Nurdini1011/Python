@@ -23,6 +23,7 @@ Le projet Python
 	
 		> python3 log_json.py
 		> > Quel fichier log à convertir en json : apache.log
+		> > apache.log est bien enregistré en fichier json (apache.json)
 		
 	iii.Tous les statistiques se fait à partir du fichier apache.json. Pour afficher tous les statistiques possible, fait la commande:
 	
