@@ -58,7 +58,7 @@ def statistique_all(f):
     # Affichage du titre
     fenetre.title("Statistique du fichier "+f)
 
-    c = Canvas(fenetre, width=1700, height=800, background="black")
+    c = Canvas(fenetre, width=1700, height=1000, background="black")
     c.pack(expand=True)
     
     #graphe bar pour OS
@@ -147,14 +147,14 @@ def statistique_all(f):
     heure=cherche_heure(dictionaire)
     k=0
     
-    c.create_rectangle(20, 520, 1450, 800, fill="white")
+    c.create_rectangle(20, 520, 1450, 900, fill="white")
     for h in heure: 
       i=heure[h] 
       c.create_rectangle(80+(50*k), 798-i/2, 120+(50*k), 770 , fill="salmon", outline="salmon") 
       c.create_text(80+(50*k)+24, 798-i/2-15,text=i) 
       c.create_text(80+(50*k)+24, 778,text=h+'h') 
       k=k+1    
-    c.create_text(700, 795, text="La statistique des utilisateurs par heure", fill="red")      
+    c.create_text(700, 805, text="La statistique des utilisateurs par heure", fill="red")      
  
     #Démarrage de la boucle Tkinter (à placer à la fin !!!)
     fenetre.mainloop()
