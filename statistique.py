@@ -316,9 +316,9 @@ def stat_ip(f):
         else:
             #ligne verticale
             c.create_rectangle(10, 80, 10*len(data_ip), 110, fill="#1E90FF", outline="#1E90FF")
-            c.create_text(10*len(data_ip)+50, 95, text="Total requête ("+str(len(data_ip))+")")
+            c.create_text(10*len(data_ip)+70, 95, text="Total requête ("+str(len(data_ip))+")")
             c.create_rectangle(10, 120, 10*ok, 150, fill="#1020F6", outline="#1020F6")
-            c.create_text(10*ok+40, 135, text="200 OK ("+str(ok)+")")
+            c.create_text(10*ok+50, 135, text="200 OK ("+str(ok)+")")
         
             #afficher les reslutat d'OS utilisé
             y1=160
@@ -326,7 +326,7 @@ def stat_ip(f):
             for i in os_utilise:
                 if os_utilise[i] != 0:
                     c.create_rectangle(10, y1, 10*os_utilise[i], y2, fill="#1E900F", outline="#1E900F")
-                    c.create_text(10*os_utilise[i]+50, y1+15, text=str(i)+" ("+str(os_utilise[i])+")")
+                    c.create_text(10*os_utilise[i]+70, y1+15, text=str(i)+" ("+str(os_utilise[i])+")")
                     y1=y1+50
                     y2=y2+50
               
