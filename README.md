@@ -31,7 +31,7 @@ Le projet Python
 		
 	iv. Pour choisir la statistique spécifique, nous avons utilisé argparse. Les commandes possible sont :
 	
-		> python3 graphique.py --h : pour afficher tous les statistiques possible
+		> python3 graphique.py -h : pour afficher tous les statistiques possible
 		
 		> python3 graphique.py --stats os : pour afficher la statistique des systèmes d'exploitation utilisés
 		
