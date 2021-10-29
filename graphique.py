@@ -23,4 +23,4 @@ elif(args.stats=='os'):
 elif(args.stats=='ip'): 
     stat_ip('apache.json')
 else: 
-    print("Seulement heure,reponse ou os") 
+    print("Seulement heure, reponse, ip ou os") 
