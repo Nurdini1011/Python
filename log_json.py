@@ -21,6 +21,7 @@ def detect_os(user_agent):
 def parse_line(line):
         ip=line.split(' ')
         get=line.split('"')
+        #on verifie que tous les lignes a la même structure
         if(len(ip)>8 and len(get)>4):
            return dict(
 			   remote_ip=ip[0],
@@ -33,6 +34,7 @@ def parse_line(line):
                system_agent=detect_os(get[5])
            )
 
+#lit et écrit les infos dans nouveau fichier
 def read_fichier(f):
     dictparline=[]
 	#ouvrir et parcour par chaque ligne du fichier
